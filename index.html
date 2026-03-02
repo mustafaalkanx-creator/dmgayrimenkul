@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gayrimenkul alım satım danışmanlığı - Müteahhitlerle pazarlık, uygun fiyat ve avantajlı ödeme planları. Uzman ekip ile güvenli gayrimenkul yatırımı.">
+    <meta name="keywords" content="gayrimenkul, danışmanlık, konut, arsa, dükkan, yatırım">
+    <title>Gayrimenkul Danışmanlık - Doğru Fırsatı Birlikte Bulalım</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">
+                DMgayrimenkul
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#anasayfa" class="hover:text-blue-600 transition">Ana Sayfa</a>
+                <a href="#hizmetler" class="hover:text-blue-600 transition">Hizmetler</a>
+                <a href="#nasil-calisiyoruz" class="hover:text-blue-600 transition">Nasıl Çalışıyoruz</a>
+                <a href="#guven" class="hover:text-blue-600 transition">Neden Biz</a>
+                <a href="#iletisim" class="hover:text-blue-600 transition">İletişim</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <a href="#anasayfa" class="block px-4 py-2 hover:bg-gray-100">Ana Sayfa</a>
+            <a href="#hizmetler" class="block px-4 py-2 hover:bg-gray-100">Hizmetler</a>
+            <a href="#nasil-calisiyoruz" class="block px-4 py-2 hover:bg-gray-100">Nasıl Çalışıyoruz</a>
+            <a href="#guven" class="block px-4 py-2 hover:bg-gray-100">Neden Biz</a>
+            <a href="#iletisim" class="block px-4 py-2 hover:bg-gray-100">İletişim</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="anasayfa" class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 md:py-32">
+        <div class="container mx-auto px-4 text-center fade-in">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Gayrimenkulde Doğru Fırsatı Biz Buluruz
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                Müteahhitlerle sıkı pazarlık, uygun peşin veya avantajlı ödeme planları.
+                Deneyimli ekibimizle hayalinizdeki gayrimenkule ulaşın.
+            </p>
+            <a href="#iletisim" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition">
+                Fırsatlardan Haberdar Olun
+            </a>
+        </div>
+    </section>
+
+    <!-- Hizmetler -->
+    <section id="hizmetler" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Hizmetlerimiz</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition fade-in">
+                    <div class="text-4xl mb-4">🏠</div>
+                    <h3 class="text-xl font-semibold mb-3">Alım Danışmanlığı</h3>
+                    <p class="text-gray-600">
+                        Bütçenize ve ihtiyaçlarınıza uygun en iyi gayrimenkul fırsatlarını buluyoruz.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition fade-in">
+                    <div class="text-4xl mb-4">💼</div>
+                    <h3 class="text-xl font-semibold mb-3">Satım Danışmanlığı</h3>
+                    <p class="text-gray-600">
+                        Hızlı satmak istiyorsanız, mülkünüzü uygun fiyatla yatırımcılarımızla buluşturuyoruz.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition fade-in">
+                    <div class="text-4xl mb-4">🏗️</div>
+                    <h3 class="text-xl font-semibold mb-3">Gayrimenkul Yatırımı</h3>
+                    <p class="text-gray-600">
+                        Konut başta olmak üzere arsa, dükkan, ofis gibi tüm gayrimenkul türlerinde yatırım fırsatlarını değerlendiriyoruz.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition fade-in">
+                    <div class="text-4xl mb-4">🤝</div>
+                    <h3 class="text-xl font-semibold mb-3">Proje Pazarlık Yönetimi</h3>
+                    <p class="text-gray-600">
+                        Müteahhitlerle en avantajlı fiyat ve ödeme koşullarını müzakere ediyoruz.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition fade-in">
+                    <div class="text-4xl mb-4">📋</div>
+                    <h3 class="text-xl font-semibold mb-3">Tapu Süreç Danışmanlığı</h3>
+                    <p class="text-gray-600">
+                        Tapu devir işlemlerini baştan sona güvenli şekilde yönetiyoruz.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition fade-in">
+                    <div class="text-4xl mb-4">✅</div>
+                    <h3 class="text-xl font-semibold mb-3">Şeffaf Süreç Yönetimi</h3>
+                    <p class="text-gray-600">
+                        Her adımda bilgilendirme yaparak süreci şeffaf şekilde yönetiyoruz.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Nasıl Çalışıyoruz -->
+    <section id="nasil-calisiyoruz" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Nasıl Çalışıyoruz?</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+
+                <div class="flex items-start space-x-4 fade-in">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                        1
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">İhtiyacınızı Analiz Ediyoruz</h3>
+                        <p class="text-gray-600">
+                            Beklentilerinizi, bütçenizi ve tercihlerinizi detaylı şekilde dinliyor, ihtiyaç analizinizi yapıyoruz.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-4 fade-in">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                        2
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Bütçenize Uygun Projeleri Filtreliyoruz</h3>
+                        <p class="text-gray-600">
+                            Geniş proje portföyümüzden size en uygun seçenekleri belirliyoruz. Sadece güvenilir müteahhitlerle çalışıyoruz.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-4 fade-in">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                        3
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Müteahhitlerle Pazarlık Ediyoruz</h3>
+                        <p class="text-gray-600">
+                            Uzun yıllara dayanan deneyimimizle en avantajlı fiyat ve ödeme koşullarını sizin adınıza müzakere ediyoruz.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-4 fade-in">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                        4
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Süreci Tapu Devrine Kadar Yönetiyoruz</h3>
+                        <p class="text-gray-600">
+                            Sözleşme imzalama, ödeme planı takibi, tapu işlemleri gibi tüm aşamalarda yanınızdayız.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Güven Bölümü -->
+    <section id="guven" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Neden Biz?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+
+                <div class="text-center fade-in">
+                    <div class="text-5xl mb-4">🏆</div>
+                    <h3 class="text-xl font-semibold mb-3">Uzun Yıllara Dayanan Tecrübe</h3>
+                    <p class="text-gray-600">
+                        Satış ofisi yönetiminde yılların verdiği deneyim ve güvenle hizmet veriyoruz.
+                    </p>
+                </div>
+
+                <div class="text-center fade-in">
+                    <div class="text-5xl mb-4">🎯</div>
+                    <h3 class="text-xl font-semibold mb-3">Gerçek Saha Deneyimi</h3>
+                    <p class="text-gray-600">
+                        Piyasayı yakından tanıyoruz. Tüm projeleri bizzat yerinde inceliyoruz.
+                    </p>
+                </div>
+
+                <div class="text-center fade-in">
+                    <div class="text-5xl mb-4">🔒</div>
+                    <h3 class="text-xl font-semibold mb-3">Şeffaf Süreç Yönetimi</h3>
+                    <p class="text-gray-600">
+                        Her aşamada bilgilendirme yapıyor, sürecin kontrolünü sizinle paylaşıyoruz.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="mt-12 max-w-3xl mx-auto bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg fade-in">
+                <p class="text-gray-700 text-lg leading-relaxed">
+                    <strong class="text-blue-600">Önemli:</strong> Kesinlikle içimize sinmeyen, uygun olduğunu düşünmediğimiz hiçbir projeyi yatırımcılarımıza sunmuyoruz. Sadece detaylı inceleme sonucu uygun fırsatlı gördüğümüz gayrimenkulleri portföyümüze alıyoruz.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- İletişim Formu -->
+    <section id="iletisim" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Yatırım Fırsatlarından Haberdar Olun</h2>
+            <p class="text-center text-gray-600 mb-8 max-w-xl mx-auto">
+                Size özel fırsatları ve portföyümüzdeki projeleri paylaşabilmemiz için lütfen formu doldurun.
+            </p>
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+
+                <form name="danismanlik-formu"
+                      method="POST"
+                      data-netlify="true"
+                      data-netlify-honeypot="bot-field"
+                      action="/tesekkurler.html">
+
+                    <input type="hidden" name="form-name" value="danismanlik-formu">
+                    <input type="hidden" name="bot-field">
+
+                    <div class="mb-4">
+                        <label for="ad" class="block text-gray-700 font-semibold mb-2">Ad Soyad *</label>
+                        <input type="text"
+                               id="ad"
+                               name="ad"
+                               required
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="telefon" class="block text-gray-700 font-semibold mb-2">Telefon *</label>
+                        <input type="tel"
+                               id="telefon"
+                               name="telefon"
+                               required
+                               placeholder="0555 123 45 67"
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-semibold mb-2">E-posta *</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               required
+                               placeholder="ornek@email.com"
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="islem_turu" class="block text-gray-700 font-semibold mb-2">İşlem Türü</label>
+                        <select id="islem_turu"
+                                name="islem_turu"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            <option value="">Seçiniz</option>
+                            <option value="Satın Almak">Satın Almak</option>
+                            <option value="Satmak">Satmak</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="gayrimenkul_turu" class="block text-gray-700 font-semibold mb-2">Gayrimenkul Türü</label>
+                        <select id="gayrimenkul_turu"
+                                name="gayrimenkul_turu"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            <option value="">Seçiniz</option>
+                            <option value="Konut">Konut</option>
+                            <option value="Arsa">Arsa</option>
+                            <option value="Dükkan">Dükkan</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="butce" class="block text-gray-700 font-semibold mb-2">Bütçe Aralığı</label>
+                        <select id="butce"
+                                name="butce"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            <option value="">Seçiniz</option>
+                            <option value="1-3 Milyon">1-3 Milyon TL</option>
+                            <option value="3-5 Milyon">3-5 Milyon TL</option>
+                            <option value="5-10 Milyon">5-10 Milyon TL</option>
+                            <option value="10+ Milyon">10+ Milyon TL</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="lokasyon" class="block text-gray-700 font-semibold mb-2">Aranan Lokasyon</label>
+                        <input type="text"
+                               id="lokasyon"
+                               name="lokasyon"
+                               placeholder="Örn: Kadıköy, İstanbul"
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="mesaj" class="block text-gray-700 font-semibold mb-2">Ek Not</label>
+                        <textarea id="mesaj"
+                                  name="mesaj"
+                                  rows="4"
+                                  placeholder="Detaylı bilgi vermek isterseniz buraya yazabilirsiniz..."
+                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+                    </div>
+
+                    <div class="mb-6">
+                        <label class="flex items-start">
+                            <input type="checkbox"
+                                   id="kvkk_onay"
+                                   name="kvkk_onay"
+                                   required
+                                   class="mt-1 mr-2">
+                            <span class="text-sm text-gray-600">
+                                Kişisel verilerimin işlenmesine ve tarafıma iletişim kurulmasına onay veriyorum. (KVKK)
+                            </span>
+                        </label>
+                    </div>
+
+                    <button type="submit"
+                            id="submit-btn"
+                            disabled
+                            class="w-full bg-blue-600 text-white py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition disabled:bg-gray-400 disabled:cursor-not-allowed">
+                        Gönder
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="mb-4">
+                <h3 class="text-2xl font-bold mb-2">DMgayrimenkul</h3>
+                <p class="text-gray-400">Gayrimenkulde Doğru Fırsatı Birlikte Bulalım</p>
+            </div>
+            <p class="text-gray-500 text-sm">
+                &copy; 2024 DMgayrimenkul. Tüm hakları saklıdır.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // KVKK checkbox validation for submit button
+        const kvkkCheckbox = document.getElementById('kvkk_onay');
+        const submitBtn = document.getElementById('submit-btn');
+
+        if (kvkkCheckbox && submitBtn) {
+            kvkkCheckbox.addEventListener('change', function() {
+                submitBtn.disabled = !this.checked;
+            });
+        }
+    </script>
+
+</body>
+</html>
