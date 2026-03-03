@@ -237,9 +237,9 @@
 
                 <form name="danismanlik-formu"
                       method="POST"
+                      action="/success"
                       data-netlify="true"
-                      data-netlify-honeypot="bot-field"
-                      action="/tesekkurler">
+                      data-netlify-honeypot="bot-field">
 
                     <input type="hidden" name="form-name" value="danismanlik-formu">
                     <input type="hidden" name="bot-field">
@@ -332,7 +332,6 @@
                             <input type="checkbox"
                                    id="kvkk_onay"
                                    name="kvkk_onay"
-                                   required
                                    class="mt-1 mr-2">
                             <span class="text-sm text-gray-600">
                                 Kişisel verilerimin işlenmesine ve tarafıma iletişim kurulmasına onay veriyorum. (KVKK)
@@ -342,8 +341,7 @@
 
                     <button type="submit"
                             id="submit-btn"
-                            disabled
-                            class="w-full bg-blue-600 text-white py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition disabled:bg-gray-400 disabled:cursor-not-allowed">
+                            class="w-full bg-blue-600 text-white py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition">
                         Gönder
                     </button>
 
@@ -386,19 +384,6 @@
                 });
             }
 
-            // KVKK checkbox validation for submit button
-            const kvkkCheckbox = document.getElementById('kvkk_onay');
-            const submitBtn = document.getElementById('submit-btn');
-
-            if (kvkkCheckbox && submitBtn) {
-                // Set initial state based on checkbox
-                submitBtn.disabled = !kvkkCheckbox.checked;
-
-                // Update button state on checkbox change
-                kvkkCheckbox.addEventListener('change', function() {
-                    submitBtn.disabled = !this.checked;
-                });
-            }
         });
     </script>
 

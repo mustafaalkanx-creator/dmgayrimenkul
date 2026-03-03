@@ -7,6 +7,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         tesekkurler: resolve(__dirname, 'tesekkurler.html'),
+        success: resolve(__dirname, 'success.html'),
       },
     },
   },
