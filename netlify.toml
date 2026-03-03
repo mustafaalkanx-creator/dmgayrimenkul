@@ -10,7 +10,3 @@
   to = "/success.html"
   status = 200
 
-[[redirects]]
-  from = "/tesekkurler"
-  to = "/tesekkurler.html"
-  status = 200
